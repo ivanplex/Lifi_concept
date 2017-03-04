@@ -16,8 +16,5 @@ WARNING: This is an incomplete system, use with caution!
 - (Cons) Need to differentiate between sending zero(off) and lost of connection.
 - (Cons) Receiver has to know the transmitter's frequency accurately
 
-
-
-###Alternative Methods
-####Amplitude-Shift Keying
+###Amplitude-Shift Keying
 - (Cons) Signal strength changes if the receiver is moving around

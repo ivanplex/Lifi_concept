@@ -24,14 +24,15 @@ WARNING: This is an incomplete system, use with caution!
 ###Maximum Transmition Rate
 The maximum output rate is confined by the maximum frequency of the LED blink. This is due to the clock speed of the ARM chip running at 120MHz.
 
-According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.
-
-After running a test
-
 The following measurements are calculated for sending binary pair (E.g. "10" or "01")
 
 |               | Binary Pair | Mean     | Minimum  | Maximum  | Std Dev |
 | ------------- | ----------- | -------- | -------- | -------- | ------- |
 | **Frequency** | 794.9kHz    | 794.7kHz | 795.3kHz | 152.9kHz | 152.9Hz |
 | **Period**    | 1.258μs     | 1.258μs  | 1.257μs  | 1.259μs  | 242.2ps |
+
+
+![alt text](https://github.com/ivanplex/Lifi_concept/docs/README/max_frequency_period.jpg)
+
+~~According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.~~
 

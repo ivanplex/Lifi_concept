@@ -29,7 +29,9 @@ According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highe
 After running a test
 
 The following measurements are calculated for sending binary pair (E.g. "10" or "01")
---- | Binary Pair | Mean | Minimum | Maximum | Std Dev
-Frequency | 794.9kHz | 794.7kHz | 795.3kHz | 152.9
-Period | 1.258μs | 1.258μs | 1.257μs | 1.259μs | 242.2ps
+
+|               | Binary Pair | Mean     | Minimum  | Maximum  | Std Dev |
+| ------------- | ----------- | -------- | -------- | -------- | ------- |
+| **Frequency** | 794.9kHz    | 794.7kHz | 795.3kHz | 152.9kHz | 152.9Hz |
+| **Period**    | 1.258μs     | 1.258μs  | 1.257μs  | 1.259μs  | 242.2ps |
 

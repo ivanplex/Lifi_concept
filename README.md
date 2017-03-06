@@ -31,9 +31,7 @@ The following measurements are calculated for sending binary pair (E.g. "10" or 
 | **Frequency** | 794.9kHz    | 794.7kHz | 795.3kHz | 152.9kHz | 152.9Hz |
 | **Period**    | 1.258μs     | 1.258μs  | 1.257μs  | 1.259μs  | 242.2ps |
 
-<img src="https://github.com/ivanplex/Lifi_concept/blob/master/docs/README/max_frequency_period.jpg" height="200px" width="280px" style="float: left;"/>
-
-![Frequency and Period at highest performance](https://github.com/ivanplex/Lifi_concept/blob/master/docs/README/max_frequency_period.jpg)
+<img src="https://github.com/ivanplex/Lifi_concept/blob/master/docs/README/max_frequency_period.jpg" height="200px" width="280px" style="float: left;" alt="Frequency and Period at highest performance"/>
 
 ~~According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.~~
 

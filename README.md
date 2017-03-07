@@ -11,14 +11,16 @@ WARNING: This is an incomplete system, use with caution!
 
 ##Digital Modulation
 
-###On-off Keying 
+###CDMA
+
+~~###On-off Keying 
 - Simplest way of representing digital data over the air. (E.g ON for 1 and OFF for 0)
 - (Cons) Need to differentiate between sending zero(off) and lost of connection.
 - (Cons) Receiver has to know the transmitter's frequency accurately
 
 ###Amplitude-Shift Keying
 - (Cons) Signal strength changes if the receiver is moving around
-
+~~
 ##Limits
 
 ###Maximum Transmition Rate
@@ -62,4 +64,6 @@ The following measurements are calculated for sending binary pair (E.g. "10" or 
 <img src="https://github.com/ivanplex/Lifi_concept/blob/master/docs/README/max_frequency_period.jpg" height="200px" width="280px" style="float: left;" alt="Frequency and Period at highest performance"/>
 
 ~~According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.~~
+
+
 

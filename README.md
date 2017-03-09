@@ -13,14 +13,14 @@ WARNING: This is an incomplete system, use with caution!
 
 ###CDMA
 
-~~###On-off Keying 
+###On-off Keying 
 - Simplest way of representing digital data over the air. (E.g ON for 1 and OFF for 0)
 - (Cons) Need to differentiate between sending zero(off) and lost of connection.
 - (Cons) Receiver has to know the transmitter's frequency accurately
 
 ###Amplitude-Shift Keying
 - (Cons) Signal strength changes if the receiver is moving around
-~~
+
 ##Limits
 
 ###Maximum Transmition Rate
@@ -65,5 +65,6 @@ The following measurements are calculated for sending binary pair (E.g. "10" or 
 
 ~~According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.~~
 
-
-
+##Interference
+Multipath interference could be ignored due to the low sensitivitly of the photo-diode and the minimal multipath time difference in a normal household situation. 
+Light takes 3.3ns to travel through a meter. Assuming a reflection path which is 10 meters longer than a direct path, the time difference introduced is 33ns which is significantly lower than our sampling period of 629ns.

@@ -40,6 +40,24 @@ The following measurements are calculated for sending binary pair (E.g. "10" or 
 Multipath interference could be ignored due to the low sensitivitly of the photo-diode and the minimal multipath time difference in a normal household situation. 
 Light takes 3.3ns to travel through a meter. Assuming a reflection path which is 10 meters longer than a direct path, the time difference introduced is 33ns which is significantly lower than our sampling period of 629ns.
 
+# OSI Model
+
+## Layer 2
+
+- Encapsulation of network layer data packets into frames
+- Frame Sychronization
+
+### Logic Link Control (LLC)
+
+#### Error Control
+Forward Error Correction for one-way communication
+
+#### Flow Control
+No Flow control, we hardcode the frequency of TX/RX. These will be manually adjusted.
+
+### Media Access Control
+No Media Access Control
+
 ## Acknowledgments
 
 - Kirk Martinez (https://github.com/kmartinez)

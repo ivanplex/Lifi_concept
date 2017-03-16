@@ -33,38 +33,16 @@ The following measurements are calculated for sending binary pair (E.g. "10" or 
 | **Frequency** | 794.9kHz    | 794.7kHz | 795.3kHz | 152.9kHz | 152.9Hz |
 | **Period**    | 1.258μs     | 1.258μs  | 1.257μs  | 1.259μs  | 242.2ps |
 
-<table style="float:right;"><thead>
-<tr>
-<th></th>
-<th>Binary Pair</th>
-<th>Mean</th>
-<th>Minimum</th>
-<th>Maximum</th>
-<th>Std Dev</th>
-</tr>
-</thead><tbody>
-<tr>
-<td><strong>Frequency</strong></td>
-<td>794.9kHz</td>
-<td>794.7kHz</td>
-<td>795.3kHz</td>
-<td>152.9kHz</td>
-<td>152.9Hz</td>
-</tr>
-<tr>
-<td><strong>Period</strong></td>
-<td>1.258μs</td>
-<td>1.258μs</td>
-<td>1.257μs</td>
-<td>1.259μs</td>
-<td>242.2ps</td>
-</tr>
-</tbody></table>
-
 <img src="https://github.com/ivanplex/Lifi_concept/blob/master/docs/README/max_frequency_period.jpg" height="200px" width="280px" style="float: left;" alt="Frequency and Period at highest performance"/>
 
-~~According to [SpazzTech](https://www.youtube.com/watch?v=dfkhMMWlcI4), the highest GPIO toggle he can acheive is 390KHz with a LED running at 3.3v.~~
 
 ##Interference
 Multipath interference could be ignored due to the low sensitivitly of the photo-diode and the minimal multipath time difference in a normal household situation. 
 Light takes 3.3ns to travel through a meter. Assuming a reflection path which is 10 meters longer than a direct path, the time difference introduced is 33ns which is significantly lower than our sampling period of 629ns.
+
+## Acknowledgments
+
+- Kirk Martinez (https://github.com/kmartinez)
+- Oli Bills
+
+

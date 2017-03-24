@@ -7,7 +7,7 @@ WARNING: This is an incomplete system, use with caution!
 ## Equipment
 - NXP FRDM-K64F with ARM® Cortex™-M4 32-bit (120MHz max)
 - White LEDs
-- Photodiode
+- TEPT5700 Ambient Light Sensor (http://www.vishay.com/docs/81321/tept5700.pdf)
 
 ## Digital Modulation
 

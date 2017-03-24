@@ -11,12 +11,12 @@ WARNING: This is an incomplete system, use with caution!
 
 ## Digital Modulation
 
-### CDMA
-
 ### On-off Keying 
-- Simplest way of representing digital data over the air. (E.g ON for 1 and OFF for 0)
-- (Cons) Need to differentiate between sending zero(off) and lost of connection.
-- (Cons) Receiver has to know the transmitter's frequency accurately
+Typical 2147483648
+ON threashold: > 100000000
+OFF threashold: < 10000
+
+
 
 ### Amplitude-Shift Keying
 - (Cons) Signal strength changes if the receiver is moving around

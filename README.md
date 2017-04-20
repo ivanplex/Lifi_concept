@@ -5,18 +5,18 @@ Implementation of an indoor Lifi System using a LED and a photodiode.
 WARNING: This is an incomplete system, use with caution!
 
 ## Equipment
-- NXP FRDM-K64F with ARM® Cortex™-M4 32-bit (120MHz max)
+- NXP FRDM-K64F with ARM® Cortex™-M4 32-bit (120MHz max) (http://www.nxp.com/assets/documents/data/en/user-guides/FRDMK64FUG.pdf)
 - White LEDs
-- Photodiode
+- TEPT5700 Ambient Light Sensor (http://www.vishay.com/docs/81321/tept5700.pdf)
 
 ## Digital Modulation
 
-### CDMA
-
 ### On-off Keying 
-- Simplest way of representing digital data over the air. (E.g ON for 1 and OFF for 0)
-- (Cons) Need to differentiate between sending zero(off) and lost of connection.
-- (Cons) Receiver has to know the transmitter's frequency accurately
+Typical 2147483648
+ON threashold: > 100000000
+OFF threashold: < 10000
+
+
 
 ### Amplitude-Shift Keying
 - (Cons) Signal strength changes if the receiver is moving around

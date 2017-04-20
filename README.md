@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ivanplex/Lifi_concept.png?label=ready&title=Ready)](https://waffle.io/ivanplex/Lifi_concept)
 # Lifi Concept System
 
 Implementation of an indoor Lifi System using a LED and a photodiode. 

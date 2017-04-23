@@ -3,41 +3,68 @@
 #include <queue>
 #include <bitset>
 
+const int BYTESIZE = 8;
 
 
 int main()
 {
 
     std::queue<char> buffer;
-    char stream [24] = {'0','1','1','0','0','0','1','1',
-    					'0','1','1','0','0','0','1','0',
-    					'0','1','1','0','0','1','0','0'};
+    char byteArray [BYTESIZE] = {};
 
-    int count = 0;
-    while(count<24){
-    	buffer.push(stream[count]);
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('1');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('1');
 
-    	if(buffer.size() == 8){
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('1');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('0');
 
-    		int pointer = 0;
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('1');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('0');
+    buffer.push('1');
+    buffer.push('0');
+
+    int byteArrayPointer = 0;
+    while(!buffer.empty()){
+
+
+    	byteArray[byteArrayPointer] = buffer.front();
+        buffer.pop();
+        byteArrayPointer++;
+
+    	if(byteArrayPointer == BYTESIZE){
+
     		unsigned char byte;
-    		while (!buffer.empty())
-			  {
-			    if(buffer.front()== '1'){
-			    	byte = byte|(1<<(7-pointer));
+    		for(int i=0;i<BYTESIZE;i++)
+			{
+			    if(byteArray[i]== '1'){
+			    	byte = byte|(1<<(BYTESIZE-1-i));
 			    }
-			    buffer.pop();
-			    pointer++;
-			  }
+			}
 
-			std::bitset<8> my_bset=std::bitset<8>(byte);
+			std::bitset<BYTESIZE> my_bset=std::bitset<BYTESIZE>(byte);
 			std::cout << char(my_bset.to_ulong());
 
 			std::cout << " | ";
 			byte = 0;
+            byteArrayPointer = 0;
     	}
 
-    	count++;
     }
 }
 

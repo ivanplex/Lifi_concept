@@ -4,7 +4,7 @@ Implementation of an indoor Lifi System using a LED and a photodiode.
 
 WARNING: This is an incomplete system, use with caution!
 
-Final Report on my implementation of Lifi - https://github.com/ivanplex/Lifi_concept/blob/master/docs/report/Lifi_concept.pdf
+Final Report on my implementation of Lifi - https://github.com/ivanplex/Lifi_concept/blob/master/docs/report/Lifi-Concept.pdf
 
 ## Equipment
 - NXP FRDM-K64F with ARM® Cortex™-M4 32-bit (120MHz max) (http://www.nxp.com/assets/documents/data/en/user-guides/FRDMK64FUG.pdf)
